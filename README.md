@@ -1,11 +1,73 @@
-[![DOI](https://zenodo.org/badge/636972288.svg)](https://zenodo.org/badge/latestdoi/636972288)
+🌿 Crop Recommendation System using Machine Learning
+This project is a machine learning-powered web application that empowers farmers and agriculturists by recommending the most suitable crop to grow based on various environmental and soil parameters. By leveraging data-driven insights, it aims to maximize agricultural yield and promote sustainable farming practices.
 
-<img src="https://github.com/omaresguerra/Cropify-Crop-Recommendation-System/blob/3ec9e47f649fd52b844733f2d9dee81b77b5893b/logo_cropify.png" alt="Cropify Logo">
+📈 Features
+🔍 Smart Crop Prediction
+Recommends optimal crops based on:
 
-## Crop Recommendation System
-This simple crop recommender system was trained using Random Forest Algorithm in giving recommendations to farmers the best and suitable crop based on an Indian Crop Recommendation Dataset. 
-By inputing N, P, K, and pH values based on soil conditions, weather conditions such as temperature, humidity, and rainfall, and regional location, the system can recommend what the best and most suitable crop to plant.
-This project is in partial fulfillment of the Final Project on MAN206 Predictive Modelling and Machine Learning.
+Soil Nutrients: Nitrogen (N), Phosphorus (P), Potassium (K)
 
-Website App: https://cropify-crop-recommendation-system.streamlit.app/
+Weather Parameters: Temperature, Humidity, Rainfall
 
+Soil Acidity: pH value
+
+🖥️ User-Friendly Interface
+
+Clean and responsive Flask web app
+
+Intuitive form-based input
+
+Displays crop insights and descriptions after prediction
+
+🧠 Powered by Machine Learning
+
+Trained Random Forest Classifier model (scikit-learn)
+
+Based on publicly available agricultural datasets
+
+📚 Tech Stack
+Layer	Technology
+Frontend	HTML, CSS, Bootstrap
+Backend	Python, Flask
+ML Model	Random Forest (scikit-learn)
+Dataset	Crop Recommendation Dataset
+
+🚀 Getting Started
+✅ Prerequisites
+Python 3.7 or higher installed
+
+# Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+
+# Install required dependencies
+pip install -r requirements.txt
+▶️ Run the Application
+
+python app.py
+Visit http://127.0.0.1:5000 in your web browser.
+
+🖼️ Screenshots
+
+![Screenshot 2025-06-22 130407](https://github.com/user-attachments/assets/3416f67b-a9ff-437f-97fa-ab3a09377b1b)
+
+
+👥 Authors & Contributors
+Bernardino
+
+Digan
+
+Esguerra
+
+Special thanks to the open-source community and contributors who made this project possible.
+
+📬 Contact
+For feedback, suggestions, or collaboration:
+
+GitHub: 2475jai
+
+Email: vegesinajaiprakash@gmail.com
+
+📝 License
+This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it.
